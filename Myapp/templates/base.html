@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://bootstrap-3.ru/assets/ico/favicon.ico">
+
+    <title>Magnitest</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fluid" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Magnitest</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/admin">Admin</a></li>
+            <li><a href="{% url 'ajax' %}">Comment</a></li>
+            <li><a href="">test</a></li>          
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+{% block content %}
+
+      <div class="row">
+        <div class="col-sm-4 ">    
+            <form method='POST' action='' id ="post-form">{% csrf_token %}
+            {{ form.as_p }}
+            <input class='btn btn-primary' type='submit' value='Sign Up' />
+            </form>
+        </div>
+      </div>
+    </div><!-- /.container -->
+{% if title %}
+{{ title}}
+{% endif %}
+
+{% endblock %}
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+
+    <script type="text/javascript"> 
+
+    $(document).ready(function(){
+      function create_post() {
+        var form_data = {
+                 first_name : $('#id_first_name').val(),
+                 middle_name : $('#id_middle_name').val(),
+                 last_name : $('#id_last_name').val(),
+                 telephone : $('#id_telephone').val(),
+                 email : $('#email-text').val(),
+                 region : $('#id-region').val(),
+                 sity : $('#id-sity').val(),
+        };
+
+       /* var form_data = $(this).serialize();*/
+
+        $.ajax({
+        url : "{% url 'ajax' %}",
+        type : "POST", 
+        data : form_data,
+        dataType: 'json',
+        success : function(json) {
+            console.log(json); // log the returned json to the console
+            alert("Success!");
+           
+        },
+        error : function(xhr,errmsg,err) {
+            $('#results').html("<div class='alert-box alert radius' data-alert>Oops! We have encountered an error: "+errmsg+
+                " <a href='#' class='close'>&times;</a></div>"); // add the error to the dom
+            console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+        }
+        });
+      };
+
+      /*function set_sity(){
+         var sity = {
+                 sity : $('#id-sity').val(),
+      }*/
+
+
+      function change_sity() {
+        var region = $(this).serialize();
+        $.ajax({
+        url : "{% url 'ajax' %}",
+        type : "POST", 
+        data : region,
+        dataType: 'json',
+        success : function(json) {
+            console.log(json); // log the returned json to the console
+            console.log("success"); // another sanity check
+            alert("Region change!");
+        },
+        error : function(xhr,errmsg,err) {
+            $('#results').html("<div class='alert-box alert radius' data-alert>Oops! We have encountered an error: "+errmsg+
+                " <a href='#' class='close'>&times;</a></div>"); // add the error to the dom
+            console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+        }
+        });
+      };
+
+
+
+
+    
+    $('#post-form').on('submit', function(event){
+        event.preventDefault();
+        create_post();
+    });
+
+    $('#id-region').on('change', function(){
+    /*    alert(this.value);*/
+        change_sity();
+    });
+
+
+    });
+
+    </script>
+      
+</body></html>
