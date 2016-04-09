@@ -34,8 +34,6 @@ def ajax(request):
     if request.method == 'POST':
         response_data = {}
         
-
-
         first_name = request.POST.get('first_name')
         last_name = request.POST.get('last_name')
         middle_name = request.POST.get('middle_name')
@@ -50,11 +48,11 @@ def ajax(request):
       
 
         response_data['result'] = 'Create  POST successful!'
-        response_data['first_name'] = 'person.first_name'
-        response_data['last_name'] = 'person.last_name'
-        response_data['region'] = 'location.region'
-        response_data['sity'] = 'sity'
-        response_data['email-text'] = 'person.email'
+        response_data['first_name'] = first_name
+        response_data['last_name'] = last_name
+        response_data['region'] = region
+        response_data['sity'] = sity
+        response_data['email-text'] = email
        
         return HttpResponse(
             json.dumps(response_data),

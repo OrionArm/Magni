@@ -1,0 +1,954 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"form_data"
+			],
+			[
+				"end",
+				"endblock"
+			],
+			[
+				"C",
+				"CartAdmin"
+			],
+			[
+				"fea",
+				"featured_image"
+			],
+			[
+				"sal",
+				"sale_price〔variable〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"form",
+				"formset〔variable〕"
+			],
+			[
+				"Vari",
+				"VariationInventoryFormSet〔module〕"
+			],
+			[
+				"St",
+				"StaffRequiredMixin〔class〕"
+			],
+			[
+				"c",
+				"contrib"
+			],
+			[
+				"a",
+				"args"
+			],
+			[
+				"qu",
+				"queryset〔variable〕"
+			],
+			[
+				"que",
+				"queryset"
+			],
+			[
+				"pro",
+				"product_pk"
+			],
+			[
+				"bt",
+				"button	Tag"
+			],
+			[
+				"ne",
+				"new_var〔variable〕"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"is_",
+				"is_authenticated"
+			],
+			[
+				"per",
+				"permissions"
+			],
+			[
+				"permiss",
+				"permissions"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"de",
+				"decorators"
+			],
+			[
+				"the",
+				"the_list"
+			],
+			[
+				"line",
+				"line_breaks"
+			],
+			[
+				"is",
+				"is_manager"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"redi",
+				"redis_url"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"get",
+				"get_or_create"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"f",
+				"featurette"
+			],
+			[
+				"max",
+				"max_length	None"
+			],
+			[
+				"Htt",
+				"HttpResponsePermanentRedirect	class"
+			],
+			[
+				"co",
+				"correct_answer"
+			],
+			[
+				"question",
+				"question_type"
+			],
+			[
+				"lo",
+				"login_required	function"
+			],
+			[
+				"Le",
+				"LectureQuestion	class"
+			],
+			[
+				"Que",
+				"QuestionAnswerInline"
+			],
+			[
+				"L",
+				"LectureQuestion	class"
+			],
+			[
+				"se",
+				"settings	instance"
+			],
+			[
+				"Lecture",
+				"LectureCompletion	class"
+			],
+			[
+				"prev",
+				"prev_item	statement"
+			],
+			[
+				"nex",
+				"next_item	statement"
+			],
+			[
+				"prv",
+				"prev_item	statement"
+			],
+			[
+				"fin",
+				"finished	statement"
+			],
+			[
+				"Lec",
+				"LectureCompletion	class"
+			],
+			[
+				"le",
+				"lecture_id	statement"
+			],
+			[
+				"con",
+				"conf	module"
+			],
+			[
+				"base",
+				"base_name	statement"
+			],
+			[
+				"file",
+				"filename	statement"
+			],
+			[
+				"Question",
+				"QuestionManager"
+			],
+			[
+				"Text",
+				"TextInput	class"
+			],
+			[
+				"Http",
+				"Http404	class"
+			],
+			[
+				"next",
+				"next_page	statement"
+			],
+			[
+				"vide",
+				"video_file"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"help",
+				"help_text	''"
+			],
+			[
+				"vid",
+				"video_file"
+			],
+			[
+				"get_",
+				"get_queryset"
+			],
+			[
+				"new_",
+				"new_slug	statement"
+			],
+			[
+				"S3",
+				"S3DirectWidget	class"
+			],
+			[
+				"w",
+				"widgets	module"
+			],
+			[
+				"cre",
+				"create_video_tupe	function"
+			],
+			[
+				"fi",
+				"file_string"
+			],
+			[
+				"up",
+				"uploadTo"
+			],
+			[
+				"H",
+				"Http404	class"
+			],
+			[
+				"Video",
+				"VideoForm	class"
+			],
+			[
+				"Vi",
+				"VideoForm	class"
+			],
+			[
+				"PRE",
+				"pre_save	statement"
+			],
+			[
+				"Vid",
+				"Video	class"
+			],
+			[
+				"get_user",
+				"get_user_model	function"
+			],
+			[
+				"fr",
+				"friends"
+			],
+			[
+				"ip",
+				"ip_overload"
+			],
+			[
+				"email_",
+				"email_user	statement"
+			],
+			[
+				"EmailF",
+				"emailfriends"
+			],
+			[
+				"Em",
+				"EmailFriends	class"
+			],
+			[
+				"Ema",
+				"EmailSignUp	class"
+			],
+			[
+				"x",
+				"x_forwarded_for	statement"
+			],
+			[
+				"ref",
+				"ref_id"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"j",
+				"jumbotron"
+			],
+			[
+				"data-",
+				"data-toggle"
+			],
+			[
+				"fo",
+				"font-variant"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"Date",
+				"DateTimeField	class"
+			],
+			[
+				"Not",
+				"NotificationAdmin	class"
+			],
+			[
+				"No",
+				"Notification	class"
+			],
+			[
+				"notifi",
+				"notified	statement"
+			],
+			[
+				"ses",
+				"ses	module"
+			],
+			[
+				"My",
+				"MyLectureView	class"
+			],
+			[
+				"Suggest",
+				"SuggestionManager"
+			],
+			[
+				"Sugg",
+				"SuggestionManager	class"
+			],
+			[
+				"date",
+				"datetime	class"
+			],
+			[
+				"ke",
+				"key_list	statement"
+			],
+			[
+				"password",
+				"password_reset_done"
+			],
+			[
+				"MEDIA",
+				"MEDIA_URL	statement"
+			],
+			[
+				"proje",
+				"project	statement"
+			],
+			[
+				"key",
+				"key_list_here	statement"
+			],
+			[
+				"Project",
+				"ProjectCode	class"
+			],
+			[
+				"com",
+				"completed_num"
+			],
+			[
+				"auto_now",
+				"auto_now_add"
+			],
+			[
+				"Dat",
+				"DateTimeField	class"
+			],
+			[
+				"comp",
+				"completed	statement"
+			],
+			[
+				"coo",
+				"cookie_time"
+			],
+			[
+				"wi",
+				"wistiaEmbed"
+			],
+			[
+				"Subc",
+				"subscribed"
+			],
+			[
+				"new",
+				"newsletter"
+			],
+			[
+				"Projec",
+				"ProjectManager	class"
+			],
+			[
+				"Ht",
+				"Http404	class"
+			],
+			[
+				"lecu",
+				"lecture_id"
+			],
+			[
+				"chec",
+				"check_user_project	function"
+			],
+			[
+				"API",
+				"ApiKey	import"
+			],
+			[
+				"AP",
+				"ApiKey"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"Aut",
+				"Authorization"
+			],
+			[
+				"Au",
+				"Authentication"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/orion/projects/Test/Magni/Myapp",
+		"/home/orion/projects/Test/Magni/src"
+	],
+	"file_history":
+	[
+		"/home/orion/projects/Test/Magni/requirements.txt",
+		"/home/orion/projects/Test/Magni/README.md",
+		"/home/orion/.ssh/my_aah.pub",
+		"/home/orion/projects/Test/Magni/Magni/settings.py",
+		"/home/orion/projects/Test/Magni/Magni/urls.py",
+		"/home/orion/projects/Test/Magnit2/Magnit2/urls.py",
+		"/home/orion/projects/Test/Magnit2/myapp/models.py",
+		"/home/orion/projects/Test/Magnit2/myapp/admin.py",
+		"/home/orion/projects/Test/Magnit2/myapp/templates/base.html",
+		"/home/orion/projects/Test/Magnit2/myapp/forms.py",
+		"/home/orion/projects/Test/Magnit2/myapp/views.py",
+		"/home/orion/projects/Test/Magnit2/Magnit2/settings.py",
+		"/home/orion/.ssh/known_hosts",
+		"/home/orion/projects/Test/Magnit2/myapp/templates/test.html",
+		"/home/orion/projects/Test/Jquery/myapp/view.py",
+		"/home/orion/projects/Test/Jquery/myapp/views.py",
+		"/home/orion/projects/Test/Jquery/Jquery/settings.py",
+		"/home/orion/projects/Test/Magnit2/myapp/templates/comment.html",
+		"/home/orion/projects/Test/Magnit2/myapp/forms2.py",
+		"/home/orion/projects/trydjango/ecommerce-2/src/templates/home.html",
+		"/home/orion/projects/Test/Magnit2/myapp/templates/myapp/home.html",
+		"/home/orion/projects/Test/Magnit2/myapp/view",
+		"/home/orion/projects/trydjango/ecommerce-2/src/todo",
+		"/home/orion/projects/trydjango/ecommerce-2/src/orders/models.py",
+		"/home/orion/projects/test/dict/book/models.py",
+		"/home/orion/projects/trydjango/ecommerce/src/carts/admin.py",
+		"/home/orion/projects/trydjango/ecommerce/src/carts/models.py",
+		"/home/orion/projects/magnit/commentbook/templates/commentbook/commentform.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/models.py",
+		"/home/orion/projects/trydjango/new/hello/world/models.py",
+		"/home/orion/projects/trydjango/new/hello/hello/settings.py",
+		"/home/orion/projects/trydjango/ecommerce/src/products/admin.py",
+		"/home/orion/projects/trydjango/ecommerce/src/ecommerce2/settings/local.py",
+		"/home/orion/projects/trydjango/ecommerce/src/newsletter/views.py",
+		"/home/orion/projects/trydjango/ecommerce/src/static_in_pro/our_static/css/navbar-static-top.css",
+		"/home/orion/projects/trydjango/ecommerce/src/static_in_pro/our_static/css/custom.css",
+		"/home/orion/projects/trydjango/ecommerce/src/templates/navbar.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/templates/products/categori_detail.html",
+		"/home/orion/projects/trydjango/ecommerce/src/templates/home.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/views.py",
+		"/home/orion/projects/trydjango/ecommerce/src/products/templates/products/product_list.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/templates/products/product_thumbnail.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/templates/products/product_detail.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/urls.py",
+		"/home/orion/projects/trydjango/ecommerce/src/products/templates/products/categori_ditail.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/mixins.py",
+		"/home/orion/projects/trydjango/ecommerce/src/products/templates/products/variation_list.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/urls_categories.py",
+		"/home/orion/projects/trydjango/ecommerce/src/ecommerce2/urls.py",
+		"/home/orion/projects/trydjango/ecommerce/src/templates/base.html",
+		"/home/orion/projects/trydjango/ecommerce/src/products/forms.py",
+		"/Users/jmitch/Desktop/delete.py",
+		"/Users/jmitch/Desktop/drf/src/comments/views.py",
+		"/Users/jmitch/Desktop/drf/src/accounts/models.py",
+		"/Users/jmitch/Desktop/drf/src/comments/permissions.py",
+		"/Users/jmitch/Desktop/drf/src/videos/permissions.py",
+		"/Users/jmitch/Desktop/drf/src/videos/views.py",
+		"/Users/jmitch/Desktop/drf/src/jquery_test/installation.txt",
+		"/Users/jmitch/Desktop/jquery_test/index.html",
+		"/Users/jmitch/Desktop/jquery_test.html",
+		"/Users/jmitch/Desktop/drf/src/videos/serializers.py",
+		"/Users/jmitch/Desktop/drf/src/srvup/views.py",
+		"/Users/jmitch/Desktop/drf/src/srvup/urls.py",
+		"/Users/jmitch/Desktop/drf/src/srvup/utils.py",
+		"/Users/jmitch/Desktop/drf/src/videos/models.py",
+		"/Users/jmitch/Desktop/30daysofdjango/5_loops.py",
+		"/Users/jmitch/Desktop/30daysofdjango/5_loops",
+		"/Users/jmitch/Desktop/xpytests/sub.py",
+		"/Users/jmitch/Desktop/30daysofdjango/3_math.py",
+		"/Users/jmitch/Desktop/30daysofdjango/2_strings.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/pdfs/tm_details_download.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/accounts/admin.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/team/home.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/team/documents.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/settings/local.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/__init__.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/settings/base.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/Procfile",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/settings/production.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/celery.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/questions/views.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/sidebar.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/lectures/all.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/questions/tasks.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/questions/urls.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/accounts/models.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/team/activity.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/urls.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/teams/urls.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/accounts/urls.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/quiz/views.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/accounts/views.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/teams/views.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/settings/__init__.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/base.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/quiz/user_results_all.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/questions/models.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/questions/all.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/lectures/views.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/welcomeModal.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/navbar.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/accounts/login.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/kpj/views.py",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/accounts/join.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/videos/all.html",
+		"/Volumes/My Passport/Dropbox/projects/kpj/kpj/templates/accounts/team.html",
+		"/Users/jmitch/Dropbox/cfe/src/projects/cloudfront.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/test_css.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/login/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/videos/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/footer.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/base.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/home.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/static/static_dir/css/signin.css",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/accounts/register.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/login/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/login/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/videos/quiz.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/videos/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/ajax.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/videos/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/core_css.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/navbar.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"<open folders>",
+			"/Users/jmitch/Dropbox/cfe/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Magnit",
+			"]",
+			"[",
+			"form.cleaned_data",
+			"url",
+			"print",
+			"Autor",
+			"blank=True",
+			"models",
+			"%}\n",
+			"productimages",
+			"img",
+			"get_related",
+			"get_context_data",
+			"data-sale-price",
+			"VariationInventoryFormSet",
+			"())\n",
+			"activate",
+			"active",
+			"activate",
+			"activatte",
+			"ProductFilterForm",
+			"filter",
+			"order",
+			".\n",
+			"CORS",
+			"render_to_pdf",
+			"render_to",
+			"TIME_ZONE",
+			"send_mail",
+			"emai",
+			"send_email",
+			"celery",
+			"download",
+			"documents",
+			"login_required",
+			"staticfile",
+			"sidebar",
+			"active",
+			".footer",
+			"option",
+			"href='#",
+			"href=\"#",
+			"join",
+			"md",
+			"pesticide",
+			"td",
+			"pricing",
+			"all",
+			"reset",
+			"next",
+			"video",
+			"model",
+			"embed",
+			"dropdown",
+			"completed",
+			"start",
+			"quiz",
+			"print",
+			"id=",
+			"action",
+			"reverse",
+			"alert",
+			"error",
+			"ask",
+			"questions",
+			"actions",
+			"questions",
+			"transcript",
+			"Lecture",
+			"User",
+			"Lecture",
+			"reply",
+			"min-height",
+			"transcriptText",
+			"transcriptContainer",
+			"transcript",
+			"toggleTrans",
+			"print",
+			"video",
+			"remove",
+			"update",
+			"remove",
+			"url",
+			"hash",
+			"verbose_name",
+			"height",
+			"top",
+			"view",
+			"transcript",
+			"<i",
+			"fa",
+			"transcriptText",
+			"questions",
+			"span",
+			"transcript",
+			":",
+			"currentTime",
+			"cookie",
+			"current",
+			"updated",
+			"questions",
+			"krtoor6jqe",
+			"block",
+			"#wistia",
+			"id",
+			"wistia",
+			"lecture",
+			"wistia",
+			"wisita",
+			"url",
+			"filename",
+			"wistia",
+			"id",
+			"video",
+			"url",
+			"projects",
+			"filename",
+			"password",
+			"favicon",
+			"fav",
+			"bookmark it",
+			"share",
+			"information",
+			"imformation",
+			"people",
+			"someref",
+			"ip"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			")",
+			"(",
+			"request.POST.get",
+			"required=False",
+			"img/apple-touch-icon-152.png",
+			"{})",
+			"render(request,",
+			"render(",
+			")",
+			"render(request,",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 136.0
+	},
+	"pinned_build_system": "",
+	"project": "magni.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
