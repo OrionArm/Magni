@@ -7,6 +7,8 @@ region_choices = (('moscow', 'Moscow'),('london', 'London'))
 sity_choices = (('moscow', 'Moscow'),('london', 'London'))
 
 # region_choices = [region for region in Location.objects.only('region')]
+# region_choices = Answer.objects.filter(id__in=[answer.id for answer in
+#             answer_set.answers.all()])
 
 class CommentForm(forms.Form):
 	first_name = forms.CharField(max_length=100, required=True)

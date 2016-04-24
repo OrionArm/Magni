@@ -554,10 +554,16 @@
 	"expanded_folders":
 	[
 		"/home/orion/projects/Test/Magni/Myapp",
-		"/home/orion/projects/Test/Magni/src"
+		"/home/orion/projects/Test/Magni/Myapp/templates",
+		"/home/orion/projects/Test/Magni/Magni"
 	],
 	"file_history":
 	[
+		"/home/orion/projects/Test/Magni/Myapp/forms.py",
+		"/home/orion/projects/Test/Magni/Myapp/views.py",
+		"/home/orion/.ssh/config",
+		"/home/orion/Документы/command",
+		"/home/orion/.pyenv/versions/kh-emo/lib/python3.5/site-packages/redis/redis-2.8.9/redis.conf",
 		"/home/orion/projects/Test/Magni/requirements.txt",
 		"/home/orion/projects/Test/Magni/README.md",
 		"/home/orion/.ssh/my_aah.pub",
@@ -680,12 +686,7 @@
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/videos/quiz.html",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/models.py",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/videos/models.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/ajax.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/views.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/videos/urls.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/urls.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/core_css.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/navbar.html"
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/ajax.py"
 	],
 	"find":
 	{
@@ -705,6 +706,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pid",
+			"demonaze",
 			"Magnit",
 			"]",
 			"[",
@@ -830,9 +833,7 @@
 			"share",
 			"information",
 			"imformation",
-			"people",
-			"someref",
-			"ip"
+			"people"
 		],
 		"highlight": false,
 		"in_selection": false,
