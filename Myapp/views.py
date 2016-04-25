@@ -6,7 +6,7 @@ from .forms import CommentForm
 from .models import Person, Location, Comment
 from django.core import serializers
 
-# Create your views here.
+
 
 def home(request):
 	if request.method == 'POST':

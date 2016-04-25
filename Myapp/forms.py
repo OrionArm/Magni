@@ -6,8 +6,6 @@ import json
 
 sity_choices = [('moscow', 'Moscow'),('london', 'London')]
 region_choices = Location.objects.values_list('id','region').distinct().order_by()
-# print sity_choices
-# print regione_choices
 
 
 
