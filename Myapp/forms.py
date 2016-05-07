@@ -1,14 +1,7 @@
 from django import forms
 from .models import Location
-import json
-
-# region_choices = (('moscow', 'Moscow'),('london', 'London'))
-
-sity_choices = [('moscow', 'Moscow'),('london', 'London')]
-region_choices = Location.objects.values_list('id','region').distinct().order_by()
-
-
-
+region_choices = Location.objects.values_list('id','region').order_by().distinct()
+print region_choices
 class CommentForm(forms.Form):
 	first_name = forms.CharField(max_length=100, required=True)
 	last_name = forms.CharField(max_length=100, required=True)
@@ -20,7 +13,7 @@ class CommentForm(forms.Form):
 	)
 
 	sity = forms.CharField(required=False, widget=forms.Select(
-		choices=sity_choices, attrs={'id': 'id-sity',})
+		choices=[], attrs={'id': 'id-sity',})
 	)
 
 	def clean_first_name(self):
@@ -53,32 +46,3 @@ class CommentForm(forms.Form):
 		sity = self.cleaned_data.get('sity')
 		return sity
 
-
-
-
-
-
-# class CommentForm(forms.Form):
-# 	fist_name = forms.CharField(max_length=100)
-# 	last_name = forms.CharField(max_length=100)
-# 	middle_name = forms.CharField(max_length=100, required=False)
-# 	telephone = forms.CharField(max_length=100, required=False)
-# 	email = forms.EmailField(max_length=100, required=False)
-# 	region = forms.ChoiceField(required=False,)
-# 	sity = forms.CharField(required=False,)
-							
-
-# def __init__(self, number, *args, **kwargs):
-# 	super(CommentForm, self).__init__(*args, **kwargs)
-# 	self.region_list = json.dumps([region for region in Location.objects.filter(id='select_region')])
-# 	self.sity_list = json.dumps([sity for sity in Location.sity.objects.filter(id='select_sity')])
-
-# 	self.widget_region = forms.ChoiceField(attrs={'class': 'select',
-# 										'data-source': self.region_list,
-# 										})
-# 	self.widget_sity = forms.ChoiceField(attrs={'class': 'select',
-# 										'data-source': self.sity_list,
-# 										})
-
-# 	self.fields['region'] = forms.ChoiceField(required=True, widget=self.widget_region,)
-# 	self.fields['sity'] = forms.ChoiceField(required=True, widget=self.widget_sity,)

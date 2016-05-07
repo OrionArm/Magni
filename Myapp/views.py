@@ -1,12 +1,14 @@
 from django.shortcuts import render
 from django.views.generic.list import ListView
 from django.http import HttpResponse, HttpResponseRedirect
+from django.core import serializers
 import json
 from .forms import CommentForm
 from .models import Person, Location, Comment
-from django.core import serializers
 
 
+
+# sity_choices = Location.objects.values_list('id','sity').filter(region).order_by()
 
 def home(request):
 	if request.method == 'POST':
@@ -45,12 +47,13 @@ def ajax(request):
         location = Location.objects.create(region=region,sity=sity)
         person = Person.objects.create(first_name=first_name, last_name=last_name, 
         	middle_name=middle_name,telephone = telephone, email=email)
-      
-
+        
+        region_choices = ''
+        
         response_data['result'] = 'Create  POST successful!'
         response_data['first_name'] = first_name
         response_data['last_name'] = last_name
-        response_data['region'] = region
+        response_data['region'] = region_choices
         response_data['sity'] = sity
         response_data['email-text'] = email
        

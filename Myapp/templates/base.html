@@ -69,13 +69,31 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-
     <script type="text/javascript"> 
-
     $(document).ready(function(){
+      
+      function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie != '') {
+              var cookies = document.cookie.split(';');
+              for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+              // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                      cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                      break;
+                    }
+              }
+        }
+        return cookieValue;
+      };
+
+
+
       function create_post() {
+        var csrftoken = getCookie('csrftoken');
         var form_data = {
+                 csrfmiddlewaretoken : csrftoken,
                  first_name : $('#id_first_name').val(),
                  middle_name : $('#id_middle_name').val(),
                  last_name : $('#id_last_name').val(),
@@ -111,7 +129,7 @@
       }*/
 
 
-      function change_sity() {
+      /*function change_sity() {
         var region = $(this).serialize();
         $.ajax({
         url : "{% url 'ajax' %}",
@@ -129,7 +147,7 @@
             console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
         }
         });
-      };
+      };*/
 
 
 
@@ -142,12 +160,11 @@
 
     $('#id-region').on('change', function(){
     /*    alert(this.value);*/
-        change_sity();
+      console.log($('#id-region').text());
     });
 
 
     });
-
     </script>
       
 </body></html>

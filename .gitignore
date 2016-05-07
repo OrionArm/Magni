@@ -1,2 +1,4 @@
-*.pyc
+**.pyc
 *.sql3
+*.sqlite3
+magni.sublime-workspace
